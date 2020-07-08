@@ -2,8 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5640f98d-d6c9-45a2-b04f-84eb6e0d5965" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/algorithm/test/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thinkinginjava/annotations/PasswordUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thinkinginjava/annotations/SimulatingNull.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thinkinginjava/annotations/UseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thinkinginjava/annotations/UseCaseTracker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thinkinginjava/annotations/database/Constraints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thinkinginjava/annotations/database/DBTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thinkinginjava/annotations/database/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thinkinginjava/annotations/database/SQLInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thinkinginjava/annotations/database/SQLString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thinkinginjava/annotations/database/TableCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thinkinginjava/annotations/database/Uniqueness.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thinkinginjava/regex/BetterRead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thinkinginjava/regex/Groups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thinkinginjava/regex/IntegerMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thinkinginjava/regex/ReFlags.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thinkinginjava/regex/Replacing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thinkinginjava/regex/Rudolph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thinkinginjava/regex/ScannerDelimiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thinkinginjava/regex/SimpleRead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thinkinginjava/regex/SplitDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thinkinginjava/regex/Splitting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thinkinginjava/regex/StartEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thinkinginjava/regex/TestRegularExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thinkinginjava/regex/TestRegularExpression2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thinkinginjava/regex/ThreatAnalyser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaNotes/algorithm/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaNotes/algorithm/test/Test.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +39,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="FxmlFile" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -42,7 +68,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -52,13 +78,13 @@
       <recent name="E:\IdeaProjects\JavaNotes\src\desiginpattern\abstractfactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SortTest">
-    <configuration name="SortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.sort.SortTest" />
+  <component name="RunManager" selected="Application.TableCreator">
+    <configuration name="ScannerDelimiter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thinkinginjava.regex.ScannerDelimiter" />
       <module name="JavaNotes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.sort.*" />
+          <option name="PATTERN" value="thinkinginjava.regex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,26 +92,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.test.Test" />
+    <configuration name="TableCreator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thinkinginjava.annotations.database.TableCreator" />
+      <module name="JavaNotes" />
+      <option name="PROGRAM_PARAMETERS" value="thinkinginjava.annotations.database.Member" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thinkinginjava.annotations.database.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.test.Test2" />
       <module name="JavaNotes" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="algorithm.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestAllocation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jvm.chap3.TestAllocation" />
-      <module name="JavaNotes" />
-      <option name="VM_PARAMETERS" value="-verbose:gc -Xms20M -Xmx20M -Xmn10M -XX:+PrintGCDetails -XX:SurvivorRatio=8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jvm.chap3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,13 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPretenureSizeThreshold" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jvm.chap3.TestPretenureSizeThreshold" />
+    <configuration name="ThreatAnalyser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thinkinginjava.regex.ThreatAnalyser" />
       <module name="JavaNotes" />
-      <option name="VM_PARAMETERS" value="-verbose:gc -Xms20M -Xmx20M -Xmn10M -XX:+PrintGCDetails -XX:SurvivorRatio=8 -XX:PretenureSizeThreshold=3145728" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jvm.chap3.*" />
+          <option name="PATTERN" value="thinkinginjava.regex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,13 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTenuringThreshold" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jvm.chap3.TestTenuringThreshold" />
+    <configuration name="UseCaseTracker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thinkinginjava.annotations.UseCaseTracker" />
       <module name="JavaNotes" />
-      <option name="VM_PARAMETERS" value="-verbose:gc -Xms20M -Xmx20M -Xmn10M -XX:+PrintGCDetails -XX:SurvivorRatio=8 -XX:MaxTenuringThreshold=1 -XX:+PrintTenuringDistribution " />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jvm.chap3.*" />
+          <option name="PATTERN" value="thinkinginjava.annotations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,19 +161,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.TestHandlePromotion" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.TestAllocation" />
-      <item itemvalue="Application.TestPretenureSizeThreshold" />
-      <item itemvalue="Application.TestTenuringThreshold" />
-      <item itemvalue="Application.SortTest" />
+      <item itemvalue="Application.ScannerDelimiter" />
+      <item itemvalue="Application.ThreatAnalyser" />
+      <item itemvalue="Application.Test2" />
+      <item itemvalue="Application.UseCaseTracker" />
+      <item itemvalue="Application.TableCreator" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SortTest" />
-        <item itemvalue="Application.TestTenuringThreshold" />
-        <item itemvalue="Application.TestPretenureSizeThreshold" />
-        <item itemvalue="Application.TestAllocation" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.TableCreator" />
+        <item itemvalue="Application.UseCaseTracker" />
+        <item itemvalue="Application.Test2" />
+        <item itemvalue="Application.ThreatAnalyser" />
+        <item itemvalue="Application.ScannerDelimiter" />
       </list>
     </recent_temporary>
   </component>
@@ -239,6 +263,22 @@
       <workItem from="1588236117560" duration="4000" />
       <workItem from="1588688628615" duration="9000" />
       <workItem from="1588862835298" duration="6000" />
+      <workItem from="1588907193446" duration="128000" />
+      <workItem from="1589415221296" duration="4000" />
+      <workItem from="1589550308852" duration="731000" />
+      <workItem from="1590547391814" duration="10000" />
+      <workItem from="1590647079317" duration="7000" />
+      <workItem from="1592641224226" duration="2306000" />
+      <workItem from="1592713351437" duration="13989000" />
+      <workItem from="1593393005088" duration="1474000" />
+      <workItem from="1593395396780" duration="22000" />
+      <workItem from="1593693359133" duration="14000" />
+      <workItem from="1593828990704" duration="215000" />
+      <workItem from="1593829233906" duration="348000" />
+      <workItem from="1593933410611" duration="1224000" />
+      <workItem from="1594019311897" duration="1476000" />
+      <workItem from="1594086386772" duration="398000" />
+      <workItem from="1594171081319" duration="4714000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1584156630486</created>
@@ -280,105 +320,80 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="317" y="134" key="#HTTP_Proxy" timestamp="1584064621368">
+    <state x="361" y="142" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594175799770">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state x="317" y="134" key="#HTTP_Proxy/0.0.1549.831@0.0.1549.831" timestamp="1584064621368" />
-    <state x="367" y="77" key="#Notifications" timestamp="1584665911726">
+    <state x="361" y="142" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1549.831@0.0.1549.831" timestamp="1594175799770" />
+    <state x="580" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1594174110217">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state x="367" y="77" key="#Notifications/0.0.1549.831@0.0.1549.831" timestamp="1584665911726" />
-    <state x="367" y="77" key="#Project_Structure" timestamp="1583628952903">
-      <screen x="0" y="0" width="1549" height="831" />
-    </state>
-    <state x="367" y="77" key="#Project_Structure/0.0.1549.831@0.0.1549.831" timestamp="1583628952903" />
-    <state x="381" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587265619329">
-      <screen x="0" y="0" width="1549" height="831" />
-    </state>
-    <state x="381" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1549.831@0.0.1549.831" timestamp="1587265619329" />
-    <state x="555" y="124" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1585032846424">
-      <screen x="0" y="0" width="1549" height="831" />
-    </state>
-    <state x="555" y="124" key="#com.intellij.ide.macro.MacrosDialog/0.0.1549.831@0.0.1549.831" timestamp="1585032846424" />
-    <state x="0" y="200" key="#com.intellij.ide.util.MemberChooser" timestamp="1584931611081">
-      <screen x="0" y="0" width="1549" height="831" />
-    </state>
-    <state x="0" y="200" key="#com.intellij.ide.util.MemberChooser/0.0.1549.831@0.0.1549.831" timestamp="1584931611081" />
-    <state x="783" y="335" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1584060128065">
-      <screen x="0" y="0" width="1549" height="831" />
-    </state>
-    <state x="783" y="335" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1549.831@0.0.1549.831" timestamp="1584060128065" />
-    <state x="505" y="165" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584365892188">
-      <screen x="0" y="0" width="1549" height="831" />
-    </state>
-    <state x="505" y="165" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1549.831@0.0.1549.831" timestamp="1584365892188" />
+    <state x="580" y="117" key="#com.intellij.ide.util.MemberChooser/0.0.1549.831@0.0.1549.831" timestamp="1594174110217" />
     <state x="409" y="0" key="CommitChangelistDialog2" timestamp="1587871340763">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
     <state x="409" y="0" key="CommitChangelistDialog2/0.0.1549.831@0.0.1549.831" timestamp="1587871340763" />
-    <state x="555" y="174" key="FileChooserDialogImpl" timestamp="1587041386112">
+    <state x="555" y="174" key="FileChooserDialogImpl" timestamp="1592641722359">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state x="555" y="174" key="FileChooserDialogImpl/0.0.1549.831@0.0.1549.831" timestamp="1587041386112" />
-    <state width="1506" height="420" key="GridCell.Tab.0.bottom" timestamp="1587523103868">
+    <state x="555" y="174" key="FileChooserDialogImpl/0.0.1549.831@0.0.1549.831" timestamp="1592641722359" />
+    <state width="1506" height="293" key="GridCell.Tab.0.bottom" timestamp="1594175774758">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1506" height="420" key="GridCell.Tab.0.bottom/0.0.1549.831@0.0.1549.831" timestamp="1587523103868" />
-    <state width="1506" height="420" key="GridCell.Tab.0.center" timestamp="1587523103868">
+    <state width="1506" height="293" key="GridCell.Tab.0.bottom/0.0.1549.831@0.0.1549.831" timestamp="1594175774758" />
+    <state width="1506" height="293" key="GridCell.Tab.0.center" timestamp="1594175774758">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1506" height="420" key="GridCell.Tab.0.center/0.0.1549.831@0.0.1549.831" timestamp="1587523103868" />
-    <state width="1506" height="420" key="GridCell.Tab.0.left" timestamp="1587523103868">
+    <state width="1506" height="293" key="GridCell.Tab.0.center/0.0.1549.831@0.0.1549.831" timestamp="1594175774758" />
+    <state width="1506" height="293" key="GridCell.Tab.0.left" timestamp="1594175774758">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1506" height="420" key="GridCell.Tab.0.left/0.0.1549.831@0.0.1549.831" timestamp="1587523103868" />
-    <state width="1506" height="420" key="GridCell.Tab.0.right" timestamp="1587523103868">
+    <state width="1506" height="293" key="GridCell.Tab.0.left/0.0.1549.831@0.0.1549.831" timestamp="1594175774758" />
+    <state width="1506" height="293" key="GridCell.Tab.0.right" timestamp="1594175774758">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1506" height="420" key="GridCell.Tab.0.right/0.0.1549.831@0.0.1549.831" timestamp="1587523103868" />
-    <state width="1506" height="268" key="GridCell.Tab.1.bottom" timestamp="1586750542320">
+    <state width="1506" height="293" key="GridCell.Tab.0.right/0.0.1549.831@0.0.1549.831" timestamp="1594175774758" />
+    <state width="1506" height="268" key="GridCell.Tab.1.bottom" timestamp="1593829581174">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1506" height="268" key="GridCell.Tab.1.bottom/0.0.1549.831@0.0.1549.831" timestamp="1586750542320" />
-    <state width="1506" height="268" key="GridCell.Tab.1.center" timestamp="1586750542320">
+    <state width="1506" height="268" key="GridCell.Tab.1.bottom/0.0.1549.831@0.0.1549.831" timestamp="1593829581174" />
+    <state width="1506" height="268" key="GridCell.Tab.1.center" timestamp="1593829581174">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1506" height="268" key="GridCell.Tab.1.center/0.0.1549.831@0.0.1549.831" timestamp="1586750542320" />
-    <state width="1506" height="268" key="GridCell.Tab.1.left" timestamp="1586750542320">
+    <state width="1506" height="268" key="GridCell.Tab.1.center/0.0.1549.831@0.0.1549.831" timestamp="1593829581174" />
+    <state width="1506" height="268" key="GridCell.Tab.1.left" timestamp="1593829581173">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1506" height="268" key="GridCell.Tab.1.left/0.0.1549.831@0.0.1549.831" timestamp="1586750542320" />
-    <state width="1506" height="268" key="GridCell.Tab.1.right" timestamp="1586750542320">
+    <state width="1506" height="268" key="GridCell.Tab.1.left/0.0.1549.831@0.0.1549.831" timestamp="1593829581173" />
+    <state width="1506" height="268" key="GridCell.Tab.1.right" timestamp="1593829581174">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1506" height="268" key="GridCell.Tab.1.right/0.0.1549.831@0.0.1549.831" timestamp="1586750542320" />
-    <state x="286" y="61" key="SettingsEditor" timestamp="1587871382708">
+    <state width="1506" height="268" key="GridCell.Tab.1.right/0.0.1549.831@0.0.1549.831" timestamp="1593829581174" />
+    <state x="286" y="0" key="SettingsEditor" timestamp="1592641778670">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state x="286" y="61" key="SettingsEditor/0.0.1549.831@0.0.1549.831" timestamp="1587871382708" />
+    <state x="286" y="0" key="SettingsEditor/0.0.1549.831@0.0.1549.831" timestamp="1592641778670" />
     <state x="367" y="152" key="Vcs.Push.Dialog.v2" timestamp="1587871350799">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
     <state x="367" y="152" key="Vcs.Push.Dialog.v2/0.0.1549.831@0.0.1549.831" timestamp="1587871350799" />
-    <state width="920" height="501" key="documentation.popup.size" timestamp="1584800250913">
+    <state x="194" y="99" width="1149" height="636" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1592641777616">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="920" height="501" key="documentation.popup.size/0.0.1549.831@0.0.1549.831" timestamp="1584800250913" />
-    <state width="920" height="501" key="javadoc.popup.new" timestamp="1584342678047">
+    <state x="194" y="99" width="1149" height="636" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1549.831@0.0.1549.831" timestamp="1592641777616" />
+    <state x="437" y="152" width="672" height="678" key="search.everywhere.popup" timestamp="1594171612249">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="920" height="501" key="javadoc.popup.new/0.0.1549.831@0.0.1549.831" timestamp="1584342678047" />
-    <state x="179" y="32" key="new project wizard" timestamp="1583629927175">
-      <screen x="0" y="0" width="1549" height="831" />
-    </state>
-    <state x="179" y="32" key="new project wizard/0.0.1549.831@0.0.1549.831" timestamp="1583629927175" />
-    <state x="194" y="99" width="1149" height="636" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1587090441041">
-      <screen x="0" y="0" width="1549" height="831" />
-    </state>
-    <state x="194" y="99" width="1149" height="636" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1549.831@0.0.1549.831" timestamp="1587090441041" />
-    <state x="437" y="152" width="672" height="678" key="search.everywhere.popup" timestamp="1584677747484">
-      <screen x="0" y="0" width="1549" height="831" />
-    </state>
-    <state x="437" y="152" width="672" height="678" key="search.everywhere.popup/0.0.1549.831@0.0.1549.831" timestamp="1584677747484" />
+    <state x="437" y="152" width="672" height="678" key="search.everywhere.popup/0.0.1549.831@0.0.1549.831" timestamp="1594171612249" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/test/Test2.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
