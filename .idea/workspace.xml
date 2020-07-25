@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5640f98d-d6c9-45a2-b04f-84eb6e0d5965" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/concurrencyinpractice/NoVisibility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/Trie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrencyinpractice/BrokenPrimeProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrencyinpractice/PrimeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrencyinpractice/TestHarness.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/Trie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,11 +44,11 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -54,9 +58,35 @@
       <recent name="E:\IdeaProjects\JavaNotes\src\desiginpattern\abstractfactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Trie">
-    <configuration name="NoVisibility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrencyinpractice.NoVisibility" />
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datastructure.BinarySearch" />
+      <module name="JavaNotes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="datastructure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Main" />
+      <module name="JavaNotes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrencyinpractice.Main" />
       <module name="JavaNotes" />
       <extension name="coverage">
         <pattern>
@@ -68,13 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TableCreator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thinkinginjava.annotations.database.TableCreator" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datastructure.Test" />
       <module name="JavaNotes" />
-      <option name="PROGRAM_PARAMETERS" value="thinkinginjava.annotations.database.Member" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thinkinginjava.annotations.database.*" />
+          <option name="PATTERN" value="datastructure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.test.Test2" />
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Test1" />
       <module name="JavaNotes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.test.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,47 +138,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Trie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="datastructure.Trie" />
-      <module name="JavaNotes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="datastructure.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UseCaseTracker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thinkinginjava.annotations.UseCaseTracker" />
-      <module name="JavaNotes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thinkinginjava.annotations.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.TestHandlePromotion" />
-      <item itemvalue="Application.Test2" />
-      <item itemvalue="Application.UseCaseTracker" />
-      <item itemvalue="Application.TableCreator" />
-      <item itemvalue="Application.NoVisibility" />
-      <item itemvalue="Application.Trie" />
+      <item itemvalue="Application.BinarySearch" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Test1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Trie" />
-        <item itemvalue="Application.NoVisibility" />
-        <item itemvalue="Application.TableCreator" />
-        <item itemvalue="Application.UseCaseTracker" />
-        <item itemvalue="Application.Test2" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Test1" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.BinarySearch" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +259,28 @@
       <workItem from="1594086386772" duration="398000" />
       <workItem from="1594171081319" duration="8477000" />
       <workItem from="1594264700660" duration="3404000" />
-      <workItem from="1594280023974" duration="1543000" />
+      <workItem from="1594280023974" duration="2162000" />
+      <workItem from="1594693102956" duration="640000" />
+      <workItem from="1594887794699" duration="3418000" />
+      <workItem from="1594951813713" duration="4606000" />
+      <workItem from="1594957100794" duration="4695000" />
+      <workItem from="1594976636751" duration="456000" />
+      <workItem from="1595141938330" duration="2544000" />
+      <workItem from="1595214861272" duration="1906000" />
+      <workItem from="1595381960110" duration="2222000" />
+      <workItem from="1595476536592" duration="597000" />
+      <workItem from="1595478805787" duration="10000" />
+      <workItem from="1595635973903" duration="5929000" />
+      <workItem from="1595676482097" duration="33000" />
+      <workItem from="1595676551151" duration="12000" />
+      <workItem from="1595676667133" duration="13000" />
+      <workItem from="1595676714114" duration="46000" />
+      <workItem from="1595676773665" duration="71000" />
+      <workItem from="1595676859712" duration="12000" />
+      <workItem from="1595676898031" duration="135000" />
+      <workItem from="1595678606574" duration="186000" />
+      <workItem from="1595678938484" duration="41000" />
+      <workItem from="1595680380073" duration="76000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1584156630486</created>
@@ -300,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594175953597</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update">
+      <created>1594282253493</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1594282253493</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,62 +343,78 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="349" y="278" width="539" height="464" key="#Notifications" timestamp="1595141984387">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state x="349" y="278" width="539" height="464" key="#Notifications/0.0.1549.831@0.0.1549.831" timestamp="1595141984387" />
+    <state x="185" y="0" key="#Project_Structure" timestamp="1595680385307">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state x="185" y="0" key="#Project_Structure/0.0.1549.831@0.0.1549.831" timestamp="1595680385307" />
     <state x="361" y="142" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594175799770">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
     <state x="361" y="142" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1549.831@0.0.1549.831" timestamp="1594175799770" />
-    <state x="580" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1594174110217">
+    <state x="580" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1595143399853">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state x="580" y="117" key="#com.intellij.ide.util.MemberChooser/0.0.1549.831@0.0.1549.831" timestamp="1594174110217" />
-    <state x="409" y="0" key="CommitChangelistDialog2" timestamp="1594175951616">
+    <state x="580" y="117" key="#com.intellij.ide.util.MemberChooser/0.0.1549.831@0.0.1549.831" timestamp="1595143399853" />
+    <state x="409" y="0" key="CommitChangelistDialog2" timestamp="1594282251259">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state x="409" y="0" key="CommitChangelistDialog2/0.0.1549.831@0.0.1549.831" timestamp="1594175951616" />
+    <state x="409" y="0" key="CommitChangelistDialog2/0.0.1549.831@0.0.1549.831" timestamp="1594282251259" />
     <state x="555" y="174" key="FileChooserDialogImpl" timestamp="1594265025566">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
     <state x="555" y="174" key="FileChooserDialogImpl/0.0.1549.831@0.0.1549.831" timestamp="1594265025566" />
-    <state width="1506" height="353" key="GridCell.Tab.0.bottom" timestamp="1594282239853">
+    <state width="1351" height="200" key="GridCell.Tab.0.bottom" timestamp="1595680423050">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1506" height="353" key="GridCell.Tab.0.bottom/0.0.1549.831@0.0.1549.831" timestamp="1594282239853" />
-    <state width="1506" height="353" key="GridCell.Tab.0.center" timestamp="1594282239852">
+    <state width="1351" height="200" key="GridCell.Tab.0.bottom/0.0.1549.831@0.0.1549.831" timestamp="1595680423050" />
+    <state width="1351" height="200" key="GridCell.Tab.0.center" timestamp="1595680423050">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1506" height="353" key="GridCell.Tab.0.center/0.0.1549.831@0.0.1549.831" timestamp="1594282239852" />
-    <state width="1506" height="353" key="GridCell.Tab.0.left" timestamp="1594282239852">
+    <state width="1351" height="200" key="GridCell.Tab.0.center/0.0.1549.831@0.0.1549.831" timestamp="1595680423050" />
+    <state width="1351" height="200" key="GridCell.Tab.0.left" timestamp="1595680423050">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1506" height="353" key="GridCell.Tab.0.left/0.0.1549.831@0.0.1549.831" timestamp="1594282239852" />
-    <state width="1506" height="353" key="GridCell.Tab.0.right" timestamp="1594282239852">
+    <state width="1351" height="200" key="GridCell.Tab.0.left/0.0.1549.831@0.0.1549.831" timestamp="1595680423050" />
+    <state width="1351" height="200" key="GridCell.Tab.0.right" timestamp="1595680423050">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1506" height="353" key="GridCell.Tab.0.right/0.0.1549.831@0.0.1549.831" timestamp="1594282239852" />
-    <state width="1506" height="268" key="GridCell.Tab.1.bottom" timestamp="1593829581174">
+    <state width="1351" height="200" key="GridCell.Tab.0.right/0.0.1549.831@0.0.1549.831" timestamp="1595680423050" />
+    <state width="1506" height="268" key="GridCell.Tab.1.bottom" timestamp="1595646322400">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1506" height="268" key="GridCell.Tab.1.bottom/0.0.1549.831@0.0.1549.831" timestamp="1593829581174" />
-    <state width="1506" height="268" key="GridCell.Tab.1.center" timestamp="1593829581174">
+    <state width="1506" height="268" key="GridCell.Tab.1.bottom/0.0.1549.831@0.0.1549.831" timestamp="1595646322400" />
+    <state width="1506" height="268" key="GridCell.Tab.1.center" timestamp="1595646322400">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1506" height="268" key="GridCell.Tab.1.center/0.0.1549.831@0.0.1549.831" timestamp="1593829581174" />
-    <state width="1506" height="268" key="GridCell.Tab.1.left" timestamp="1593829581173">
+    <state width="1506" height="268" key="GridCell.Tab.1.center/0.0.1549.831@0.0.1549.831" timestamp="1595646322400" />
+    <state width="1506" height="268" key="GridCell.Tab.1.left" timestamp="1595646322400">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1506" height="268" key="GridCell.Tab.1.left/0.0.1549.831@0.0.1549.831" timestamp="1593829581173" />
-    <state width="1506" height="268" key="GridCell.Tab.1.right" timestamp="1593829581174">
+    <state width="1506" height="268" key="GridCell.Tab.1.left/0.0.1549.831@0.0.1549.831" timestamp="1595646322400" />
+    <state width="1506" height="268" key="GridCell.Tab.1.right" timestamp="1595646322400">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="1506" height="268" key="GridCell.Tab.1.right/0.0.1549.831@0.0.1549.831" timestamp="1593829581174" />
-    <state x="286" y="0" key="SettingsEditor" timestamp="1594266916798">
+    <state width="1506" height="268" key="GridCell.Tab.1.right/0.0.1549.831@0.0.1549.831" timestamp="1595646322400" />
+    <state x="355" y="150" key="IDE.errors.dialog" timestamp="1595639503984">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state x="286" y="0" key="SettingsEditor/0.0.1549.831@0.0.1549.831" timestamp="1594266916798" />
-    <state x="367" y="152" key="Vcs.Push.Dialog.v2" timestamp="1594175962248">
+    <state x="355" y="150" key="IDE.errors.dialog/0.0.1549.831@0.0.1549.831" timestamp="1595639503984" />
+    <state x="286" y="0" key="SettingsEditor" timestamp="1595680455524">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state x="367" y="152" key="Vcs.Push.Dialog.v2/0.0.1549.831@0.0.1549.831" timestamp="1594175962248" />
+    <state x="286" y="0" key="SettingsEditor/0.0.1549.831@0.0.1549.831" timestamp="1595680455524" />
+    <state x="367" y="152" key="Vcs.Push.Dialog.v2" timestamp="1594282256706">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state x="367" y="152" key="Vcs.Push.Dialog.v2/0.0.1549.831@0.0.1549.831" timestamp="1594282256706" />
+    <state x="108" y="37" key="new project wizard" timestamp="1595678697800">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state x="108" y="37" key="new project wizard/0.0.1549.831@0.0.1549.831" timestamp="1595678697800" />
     <state x="194" y="99" width="1149" height="636" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1594266902970">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
@@ -391,5 +438,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JavaNotes$Main__1_.ic" NAME="Main (1) Coverage Results" MODIFIED="1595641440432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.*</FILTER>
+    </SUITE>
   </component>
 </project>

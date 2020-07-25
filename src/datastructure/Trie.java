@@ -1,5 +1,7 @@
 package datastructure;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
@@ -164,6 +166,9 @@ public class Trie {
         tree.add("panz");
         System.out.println(tree.contains("panz"));
         System.out.println("Size: " + tree.size());
+
+        List<Integer> list = new ArrayList<>();
+
     }
 
 
